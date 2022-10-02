@@ -94,13 +94,13 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
-			<Beauty>2</Beauty>
 			<Nutrition>0.4</Nutrition>
+			<Beauty>2</Beauty>
 			<BeautyOutdoors>2</BeautyOutdoors>
 		</statBases>
 		<selectable>true</selectable>
 		<neverMultiSelect>false</neverMultiSelect>
-		<pathCost>5</pathCost>
+		<pathCost>15</pathCost>
 		<ingestible/>
 		<plant>
 			<mustBeWildToSow>true</mustBeWildToSow>
@@ -114,7 +114,7 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawFungus</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
-			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
 			<purpose>Food</purpose>
 		</plant>
@@ -132,7 +132,6 @@
 			</shadowData>
 		</graphicData>
 		<statBases>
-			<Nutrition>1.15</Nutrition>
 			<Beauty>3</Beauty>
 			<BeautyOutdoors>3</BeautyOutdoors>
 		</statBases>
@@ -158,7 +157,6 @@
 			</shadowData>
 		</graphicData>
 		<statBases>
-			<Nutrition>0.5</Nutrition>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>
 		</statBases>
@@ -185,7 +183,6 @@
 		</graphicData>
 		<statBases>
 			<Beauty>4</Beauty>
-			<Nutrition>1.4</Nutrition>
 			<BeautyOutdoors>4</BeautyOutdoors>
 		</statBases>
 		<ingestible/>

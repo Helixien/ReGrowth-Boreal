@@ -22,7 +22,7 @@
 					<RG_Plant_BlueTreePine>1.0</RG_Plant_BlueTreePine>
 					<RG_Plant_LargeTreePine>0.8</RG_Plant_LargeTreePine>
 					<RG_Plant_OrangeTreePine>0.2</RG_Plant_OrangeTreePine>
-					<RG_Potokus>0.025</RG_Potokus>
+					<RG_Potokus>0.05</RG_Potokus>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">

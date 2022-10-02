@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="PlantBase">
-		<defName>RG-BF_Plant_Potokus</defName>
-		<label>cultivated potokus</label>
+		<defName>RG_Plant_Potokus</defName>
+		<label>potokus</label>
 		<description>A small brown and delicious mushroom growing in clusters. It grows slowly but can't blight.</description>
 		<graphicData>
 			<texPath>Things/Plant/Potokus</texPath>
@@ -10,13 +10,13 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
-			<Beauty>2</Beauty>
 			<Nutrition>0.4</Nutrition>
+			<Beauty>2</Beauty>
 			<BeautyOutdoors>2</BeautyOutdoors>
 		</statBases>
 		<selectable>true</selectable>
 		<neverMultiSelect>false</neverMultiSelect>
-		<pathCost>5</pathCost>
+		<pathCost>15</pathCost>
 		<ingestible/>
 		<plant>
 			<sowTags>
@@ -32,11 +32,11 @@
 			<maxMeshCount>4</maxMeshCount>
 			<sowMinSkill>8</sowMinSkill>
 			<dieIfLeafless>true</dieIfLeafless>
-			<harvestYield>25</harvestYield>
+			<harvestYield>26</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawFungus</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
-			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
