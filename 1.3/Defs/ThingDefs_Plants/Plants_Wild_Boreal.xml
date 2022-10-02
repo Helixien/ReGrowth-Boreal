@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BushBase">
+		<defName>RG-BF_Plant_BorealFern</defName>
+		<label>fern</label>
+		<description>A short shrub with long, fine leaves. Grows in forests in warmer areas.</description>
+		<graphicData>
+			<texPath>Things/Plant/BorealFern</texPath>
+			<drawSize>1.15</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<growDays>3</growDays>
+			<leaflessGraphicPath>Things/Plant/Leafless/BorealFern_Leafless</leaflessGraphicPath>
+			<harvestWork>60</harvestWork>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>RG-T_Plant_ScrubPine</defName>
+		<label>pine scrub</label>
+		<description>A low growing, pine shrub found in boreal biomes. It slows down anyone moving through it significantly and does not die in winter.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0.9</Flammability>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/ScrubPine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.8</hideAtSnowDepth>
+		<pathCost>55</pathCost>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.04</fertilityMin>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<growDays>15</growDays>
+			<harvestWork>35</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>8</wildClusterWeight>
+			<visualSizeRange>0.4~1</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>RG-BF_Plant_TigerLily</defName>
+		<label>tiger lily</label>
+		<description>A tiny orange flower which grows in large clusters. Though it is often considered a weed, tiger lilys in bloom are quite beautiful.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<Nutrition>0.18</Nutrition>
+			<BeautyOutdoors>4</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/TigerLily</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.6</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.3~0.4</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>8</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<purpose>Beauty</purpose>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>RG-BF_Plant_OrangeTreePine</defName>
+		<label>pine tree</label>
+		<description>A large orange conifer covered with prickly pine cones. It grows in a distinctive conical shape.</description>
+		<graphicData>
+			<texPath>Things/Plant/OrangeTreePine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>3</Beauty>
+			<Nutrition>1.15</Nutrition>
+			<BeautyOutdoors>3</BeautyOutdoors>
+		</statBases>
+		<ingestible/>
+		<plant>
+			<growDays>25</growDays>
+			<visualSizeRange>1.1~2.5</visualSizeRange>
+			<harvestWork>750</harvestWork>
+			<harvestYield>21</harvestYield>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>RG-BF_Plant_BlueTreePine</defName>
+		<label>pine tree</label>
+		<description>A smaller blueish conifer covered with small pine cones. It grows only in colder regions or higher altitude.</description>
+		<graphicData>
+			<texPath>Things/Plant/BlueTreePine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>4</Beauty>
+			<Nutrition>0.5</Nutrition>
+			<BeautyOutdoors>4</BeautyOutdoors>
+		</statBases>
+		<ingestible/>
+		<plant>
+			<growDays>40</growDays>
+			<visualSizeRange>1.3~2.5</visualSizeRange>
+			<harvestWork>900</harvestWork>
+			<harvestYield>16</harvestYield>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>RG-BF_Plant_LargeTreePine</defName>
+		<label>pine tree</label>
+		<description>A tall bright green conifer with a thin bark. It grows taller than other pines.</description>
+		<graphicData>
+			<texPath>Things/Plant/LargeTreePine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>4</Beauty>
+			<Nutrition>1.4</Nutrition>
+			<BeautyOutdoors>4</BeautyOutdoors>
+		</statBases>
+		<ingestible/>
+		<plant>
+			<growDays>56</growDays>
+			<visualSizeRange>2.5~3.5</visualSizeRange>
+			<harvestWork>1200</harvestWork>
+			<harvestYield>36</harvestYield>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>RG-BF_Potokus</defName>
+		<label>potokus</label>
+		<description>A small brown and delicious mushroom growing in clusters. It grows exclusively in boreal forests.</description>
+		<graphicData>
+			<texPath>Things/Plant/Potokus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Beauty>2</Beauty>
+			<Nutrition>0.4</Nutrition>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>5</pathCost>
+		<ingestible/>
+		<plant>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowResearchPrerequisites/>
+			<fertilityMin>0.04</fertilityMin>
+			<fertilitySensitivity>0.15</fertilitySensitivity>
+			<growDays>18</growDays>
+			<maxMeshCount>4</maxMeshCount>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestYield>35</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawFungus</harvestedThingDef>
+			<neverBlightable>true</neverBlightable>
+			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+</Defs>

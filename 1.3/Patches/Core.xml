@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Core</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+					<value>
+						<RG-BF_Plant_BorealFern>1.0</RG-BF_Plant_BorealFern>
+						<RG-BF_Plant_TigerLily>0.2</RG-BF_Plant_TigerLily>
+						<RG-BF_Plant_BlueTreePine>0.04</RG-BF_Plant_BlueTreePine>
+						<RG-BF_Plant_LargeTreePine>0.02</RG-BF_Plant_LargeTreePine>
+						<RG-T_Plant_ScrubPine>0.2</RG-T_Plant_ScrubPine>
+						<RG-BF_Plant_OrangeTreePine>0.005</RG-BF_Plant_OrangeTreePine>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+					<value>
+						<RG-BF_Plant_TigerLily>0.4</RG-BF_Plant_TigerLily>
+						<RG-BF_Plant_BorealFern>2.0</RG-BF_Plant_BorealFern>
+						<RG-T_Plant_ScrubPine>0.7</RG-T_Plant_ScrubPine>
+						<RG-BF_Plant_BlueTreePine>1.0</RG-BF_Plant_BlueTreePine>
+						<RG-BF_Plant_LargeTreePine>0.8</RG-BF_Plant_LargeTreePine>
+						<RG-BF_Plant_OrangeTreePine>0.2</RG-BF_Plant_OrangeTreePine>
+						<RG-BF_Potokus>0.025</RG-BF_Potokus>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+					<value>
+						<RG-BF_Plant_TigerLily>0.3</RG-BF_Plant_TigerLily>
+						<RG-BF_Plant_BorealFern>1.0</RG-BF_Plant_BorealFern>
+						<RG-BF_Plant_LargeTreePine>0.01</RG-BF_Plant_LargeTreePine>
+						<RG-BF_Plant_OrangeTreePine>0.004</RG-BF_Plant_OrangeTreePine>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

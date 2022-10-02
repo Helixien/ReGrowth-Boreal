@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Core</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ResearchTabDef>
+							<defName>RG_ReGrowth</defName>
+							<label>ReGrowth</label>
+						</ResearchTabDef>
+						<!--=============== Mushroom Cultivation ==============-->
+						<ResearchProjectDef>
+							<defName>RG_MushroomCultivation</defName>
+							<label>mushroom cultivation</label>
+							<description>Cultivate and grow wild mushrooms.</description>
+							<baseCost>600</baseCost>
+							<techLevel>Neolithic</techLevel>
+							<tab>RG_ReGrowth</tab>
+							<tags>
+								<li>TribalStart</li>
+							</tags>
+							<researchViewX>0.00</researchViewX>
+							<researchViewY>1.40</researchViewY>
+						</ResearchProjectDef>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+</Patch>
