@@ -1,51 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Core</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
-					<value>
-						<RG_Plant_TigerLily>0.2</RG_Plant_TigerLily>
-						<RG_Plant_BorealFern>1.0</RG_Plant_BorealFern>
-						<RG_Plant_Coldheart>0.4</RG_Plant_Coldheart>
-						<RG_Plant_BlueTreePine>0.04</RG_Plant_BlueTreePine>
-						<RG_Plant_LargeTreePine>0.02</RG_Plant_LargeTreePine>
-						<RG_Plant_OrangeTreePine>0.005</RG_Plant_OrangeTreePine>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
-					<value>
-						<RG_Plant_TigerLily>0.4</RG_Plant_TigerLily>
-						<RG_Plant_BorealFern>2.0</RG_Plant_BorealFern>
-						<RG_Plant_Coldheart>0.5</RG_Plant_Coldheart>
-						<RG_Plant_BlueTreePine>1.0</RG_Plant_BlueTreePine>
-						<RG_Plant_LargeTreePine>0.8</RG_Plant_LargeTreePine>
-						<RG_Plant_OrangeTreePine>0.2</RG_Plant_OrangeTreePine>
-						<RG_Potokus>0.025</RG_Potokus>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
-					<value>
-						<RG_Plant_TigerLily>0.3</RG_Plant_TigerLily>
-						<RG_Plant_BorealFern>1.0</RG_Plant_BorealFern>
-						<RG_Plant_Coldheart>0.5</RG_Plant_Coldheart>
-						<RG_Plant_LargeTreePine>0.01</RG_Plant_LargeTreePine>
-						<RG_Plant_OrangeTreePine>0.004</RG_Plant_OrangeTreePine>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/pollutedGraphicPath</xpath>
-					<value>
-						<pollutedGraphicPath>Things/Plant/Polluted/TreePine_Polluted</pollutedGraphicPath>
-					</value>
-				</li>
-			</operations>
-		</match>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_TigerLily>0.2</RG_Plant_TigerLily>
+					<RG_Plant_BorealFern>1.0</RG_Plant_BorealFern>
+					<RG_Plant_Coldheart>0.4</RG_Plant_Coldheart>
+					<RG_Plant_BlueTreePine>0.04</RG_Plant_BlueTreePine>
+					<RG_Plant_LargeTreePine>0.02</RG_Plant_LargeTreePine>
+					<RG_Plant_OrangeTreePine>0.005</RG_Plant_OrangeTreePine>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_TigerLily>0.4</RG_Plant_TigerLily>
+					<RG_Plant_BorealFern>2.0</RG_Plant_BorealFern>
+					<RG_Plant_Coldheart>0.5</RG_Plant_Coldheart>
+					<RG_Plant_BlueTreePine>1.0</RG_Plant_BlueTreePine>
+					<RG_Plant_LargeTreePine>0.8</RG_Plant_LargeTreePine>
+					<RG_Plant_OrangeTreePine>0.2</RG_Plant_OrangeTreePine>
+					<RG_Potokus>0.025</RG_Potokus>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_TigerLily>0.3</RG_Plant_TigerLily>
+					<RG_Plant_BorealFern>1.0</RG_Plant_BorealFern>
+					<RG_Plant_Coldheart>0.5</RG_Plant_Coldheart>
+					<RG_Plant_LargeTreePine>0.01</RG_Plant_LargeTreePine>
+					<RG_Plant_OrangeTreePine>0.004</RG_Plant_OrangeTreePine>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/pollutedGraphicPath</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/Polluted/TreePine_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 </Patch>

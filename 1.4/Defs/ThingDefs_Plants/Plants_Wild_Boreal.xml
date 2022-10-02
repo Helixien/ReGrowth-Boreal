@@ -36,7 +36,7 @@
 			<BeautyOutdoors>2</BeautyOutdoors>
 		</statBases>
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>
-		<ingestible />
+		<ingestible/>
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.2</fertilitySensitivity>
