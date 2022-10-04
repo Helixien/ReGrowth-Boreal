@@ -23,7 +23,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Plant_Coldheart</defName>
 		<label>coldheart</label>
-		<description>A genetically altered version of common ivy adapted to grow in areas of cold temperatures.</description>
+		<description>A genetically altered version of common ivy adapted to thrive in areas of cold temperatures.</description>
 		<graphicData>
 			<texPath>Things/Plant/Coldheart</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
