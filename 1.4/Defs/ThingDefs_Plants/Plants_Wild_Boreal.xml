@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>RG_Plant_BorealFern</defName>
 		<label>fern</label>
-		<description>A short shrub with long, fine leaves. Grows in forests in warmer areas.</description>
+		<description>A short shrub with long, fine leaves. Grows in cold forests areas.</description>
 		<graphicData>
 			<texPath>Things/Plant/BorealFern</texPath>
 			<drawSize>1.15</drawSize>
@@ -15,9 +15,7 @@
 		<plant>
 			<growDays>3</growDays>
 			<leaflessGraphicPath>Things/Plant/Leafless/BorealFern_Leafless</leaflessGraphicPath>
-			<pollutedGraphicPath>Things/Plant/Polluted/BorealFern_Polluted</pollutedGraphicPath>
 			<harvestWork>60</harvestWork>
-			<pollution>Any</pollution>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
