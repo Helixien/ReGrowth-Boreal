@@ -101,8 +101,6 @@
 		<pathCost>15</pathCost>
 		<ingestible/>
 		<plant>
-			<mustBeWildToSow>true</mustBeWildToSow>
-			<sowResearchPrerequisites/>
 			<fertilityMin>0.04</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
 			<growDays>18</growDays>
