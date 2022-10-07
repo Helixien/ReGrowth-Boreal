@@ -9,9 +9,15 @@
 	</supportedVersions>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2106597000</url>
 	<packageId>ReGrowth.BOTR.BorealForestExpansion</packageId>
-	<description>This is ReGrowth's Boreal Expansion, adding 3 new trees, new variations to the vanilla pine tree, two new plants and one new mushroom, which can be found in the wild and grown after completing the required research.
-
-This mod is lightweight, it has no extra code and was designed to perfectly fit the vanilla game!</description>
+	<description>Check the workshop page for information.</description>
+	<modDependencies>
+		<li>
+			<displayName>ReGrowth: Core</displayName>
+			<packageId>ReGrowth.BOTR.Core</packageId>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</steamWorkshopUrl>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</downloadUrl>
+		</li>
+	</modDependencies>
 	<loadAfter>
 		<li>ReGrowth.BOTR.Core</li>
 	</loadAfter>
