@@ -31,6 +31,7 @@
 			<MaxHitPoints>120</MaxHitPoints>
 			<Flammability>0.6</Flammability>
 			<Nutrition>0.15</Nutrition>
+			<Beauty>2</Beauty>
 			<BeautyOutdoors>2</BeautyOutdoors>
 		</statBases>
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>
