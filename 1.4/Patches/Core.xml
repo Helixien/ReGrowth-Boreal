@@ -45,11 +45,10 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
 				<value>
-<!--					<RG_Plant_TigerLily>0.3</RG_Plant_TigerLily>
 					<RG_Plant_BorealFern>1.0</RG_Plant_BorealFern>
-					<RG_Plant_Coldheart>0.5</RG_Plant_Coldheart>
-					<RG_Plant_LargeTreePine>0.01</RG_Plant_LargeTreePine>
-					<RG_Plant_OrangeTreePine>0.004</RG_Plant_OrangeTreePine>-->
+					<RG_Plant_Coldheart>0.05</RG_Plant_Coldheart>
+					<RG_Plant_LargeTreePine>0.05</RG_Plant_LargeTreePine>
+					<RG_Plant_OrangeTreePine>0.4</RG_Plant_OrangeTreePine>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
