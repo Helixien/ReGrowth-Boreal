@@ -40,6 +40,8 @@
 					<RG_Plant_LargeTreePine>0.8</RG_Plant_LargeTreePine>
 					<RG_Plant_OrangeTreePine>0.2</RG_Plant_OrangeTreePine>
 					<RG_Potokus>0.05</RG_Potokus>
+					<RG_Plant_Potokus>0.000000000000001</RG_Plant_Potokus>
+					<!--=============== Why the 0s? Because I cant lock them to a biome unless the value is greater than 0 because fuck me I gues... ==============-->
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
