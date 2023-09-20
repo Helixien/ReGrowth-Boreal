@@ -12,6 +12,7 @@
 			</shadowData>
 		</graphicData>
 		<uiIconScale>0.85</uiIconScale>
+		<selectable>false</selectable>
 		<plant>
 			<growDays>3</growDays>
 			<leaflessGraphicPath>Things/Plant/Leafless/BorealFern_Leafless</leaflessGraphicPath>
