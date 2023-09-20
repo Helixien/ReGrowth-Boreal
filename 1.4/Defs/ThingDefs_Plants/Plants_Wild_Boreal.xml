@@ -137,7 +137,7 @@
 		<ingestible/>
 		<plant>
 			<growDays>25</growDays>
-			<visualSizeRange>1.1~2.5</visualSizeRange>
+			<visualSizeRange>0.9~2.3</visualSizeRange>
 			<harvestWork>750</harvestWork>
 			<harvestYield>21</harvestYield>
 			<pollutedGraphicPath>Things/Plant/Polluted/TreePine_Polluted</pollutedGraphicPath>
