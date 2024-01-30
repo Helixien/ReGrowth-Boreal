@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BiomeDef[defName = "BorealForest"]/terrainsByFertility</xpath>
+				<value>
+					<terrainsByFertility>
+						<li>
+							<terrain>RG_BorealSoil</terrain>
+							<min>-999</min>
+							<max>0.87</max>
+						</li>
+						<li>
+							<terrain>SoilRich</terrain>
+							<min>0.87</min>
+							<max>999</max>
+						</li>
+					</terrainsByFertility>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_TigerLily>0.2</RG_Plant_TigerLily>
+					<RG_Plant_BorealFern>1.0</RG_Plant_BorealFern>
+					<RG_Plant_Coldheart>0.4</RG_Plant_Coldheart>
+					<RG_Plant_BlueTreePine>0.04</RG_Plant_BlueTreePine>
+					<RG_Plant_LargeTreePine>0.02</RG_Plant_LargeTreePine>
+					<RG_Plant_OrangeTreePine>0.005</RG_Plant_OrangeTreePine>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_TigerLily>0.4</RG_Plant_TigerLily>
+					<RG_Plant_BorealFern>2.0</RG_Plant_BorealFern>
+					<RG_Plant_Coldheart>0.5</RG_Plant_Coldheart>
+					<RG_Plant_BlueTreePine>1.0</RG_Plant_BlueTreePine>
+					<RG_Plant_LargeTreePine>0.8</RG_Plant_LargeTreePine>
+					<RG_Plant_OrangeTreePine>0.2</RG_Plant_OrangeTreePine>
+					<RG_Potokus>0.05</RG_Potokus>
+					<RG_Plant_Potokus>0.000000000000001</RG_Plant_Potokus>
+					<!--=============== Why the 0s? Because I cant lock them to a biome unless the value is greater than 0 because fuck me I gues... ==============-->
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_BorealFern>1.0</RG_Plant_BorealFern>
+					<RG_Plant_Coldheart>0.05</RG_Plant_Coldheart>
+					<RG_Plant_LargeTreePine>0.05</RG_Plant_LargeTreePine>
+					<RG_Plant_OrangeTreePine>0.4</RG_Plant_OrangeTreePine>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/pollutedGraphicPath</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/Polluted/TreePine_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
