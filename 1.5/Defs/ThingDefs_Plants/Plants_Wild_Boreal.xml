@@ -141,6 +141,7 @@
 			<harvestWork>750</harvestWork>
 			<harvestYield>21</harvestYield>
 			<pollutedGraphicPath>Things/Plant/Polluted/TreePine_Polluted</pollutedGraphicPath>
+			<immatureGraphicPath>Things/Plant/_Immature/OrangeTreePine_Immature</immatureGraphicPath>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
@@ -166,6 +167,7 @@
 			<harvestWork>900</harvestWork>
 			<harvestYield>16</harvestYield>
 			<pollutedGraphicPath>Things/Plant/Polluted/BlueTreePine_Polluted</pollutedGraphicPath>
+			<immatureGraphicPath>Things/Plant/_Immature/BlueTreePine_Immature</immatureGraphicPath>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
@@ -191,6 +193,7 @@
 			<harvestWork>1150</harvestWork>
 			<harvestYield>33</harvestYield>
 			<pollutedGraphicPath>Things/Plant/Polluted/LargeTreePine_Polluted</pollutedGraphicPath>
+			<immatureGraphicPath>Things/Plant/_Immature/LargeTreePine_Immature</immatureGraphicPath>
 		</plant>
 	</ThingDef>
 </Defs>
