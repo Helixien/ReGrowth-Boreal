@@ -15,7 +15,7 @@
 		<selectable>false</selectable>
 		<plant>
 			<growDays>3</growDays>
-			<leaflessGraphicPath>Things/Plant/Leafless/BorealFern_Leafless</leaflessGraphicPath>
+			<leaflessGraphicPath>Things/Plant/_Leafless/BorealFern_Leafless</leaflessGraphicPath>
 			<harvestWork>60</harvestWork>
 		</plant>
 	</ThingDef>
