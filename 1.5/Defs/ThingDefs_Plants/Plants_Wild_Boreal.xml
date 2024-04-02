@@ -19,35 +19,6 @@
 			<harvestWork>60</harvestWork>
 		</plant>
 	</ThingDef>
-<!--	<ThingDef ParentName="PlantBase">
-		<defName>RG_Plant_PineShrub</defName>
-		<label>shrub</label>
-		<description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Nutrition>0.50</Nutrition>
-		</statBases>
-		<pathCost>14</pathCost>
-		<graphicData>
-			<texPath>Things/Plant/ScrubPine</texPath>
-			<drawSize>1.5</drawSize>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<ingestible/>
-		<plant>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<growDays>3</growDays>
-			<harvestWork>60</harvestWork>
-			<maxMeshCount>4</maxMeshCount>
-			<visualSizeRange>0.7~0.85</visualSizeRange>
-			<topWindExposure>0.15</topWindExposure>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>200</wildClusterWeight>
-			<wildOrder>1</wildOrder>
-			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
-			<pollution>Any</pollution>
-		</plant>
-	</ThingDef>-->
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Plant_Coldheart</defName>
 		<label>coldheart</label>
@@ -225,4 +196,33 @@
 			<immatureGraphicPath>Things/Plant/_Immature/LargeTreePine_Immature</immatureGraphicPath>
 		</plant>
 	</ThingDef>
+	<!--	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_PineShrub</defName>
+		<label>shrub</label>
+		<description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<pathCost>14</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/ScrubPine</texPath>
+			<drawSize>1.5</drawSize>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>3</growDays>
+			<harvestWork>60</harvestWork>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.7~0.85</visualSizeRange>
+			<topWindExposure>0.15</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+			<pollution>Any</pollution>
+		</plant>
+	</ThingDef>-->
 </Defs>
