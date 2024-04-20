@@ -36,12 +36,6 @@
 					<RG_Plant_OrangeTreePine>0.4</RG_Plant_OrangeTreePine>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/pollutedGraphicPath</xpath>
-				<value>
-					<pollutedGraphicPath>Things/Plant/_Polluted/TreePine_Polluted</pollutedGraphicPath>
-				</value>
-			</li>
 		</operations>
 	</Operation>
 </Patch>

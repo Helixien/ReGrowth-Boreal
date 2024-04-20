@@ -18,6 +18,8 @@
 			<leaflessGraphicPath>Things/Plant/_Leafless/BorealFern_Leafless</leaflessGraphicPath>
 			<pollutedGraphicPath>Things/Plant/_Polluted/BorealFern_Polluted</pollutedGraphicPath>
 			<harvestWork>60</harvestWork>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+			<pollution>Any</pollution>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
@@ -51,6 +53,8 @@
 			<visualSizeRange>0.35~0.85</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
 			<wildOrder>1</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+			<pollution>Any</pollution>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
