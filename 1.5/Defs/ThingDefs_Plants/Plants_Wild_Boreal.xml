@@ -16,7 +16,6 @@
 		<plant>
 			<growDays>3</growDays>
 			<leaflessGraphicPath>Things/Plant/_Leafless/BorealFern_Leafless</leaflessGraphicPath>
-			<immatureGraphicPath>Things/Plant/_Immature/BorealFern_Immature</immatureGraphicPath>
 			<pollutedGraphicPath>Things/Plant/_Polluted/BorealFern_Polluted</pollutedGraphicPath>
 			<harvestWork>60</harvestWork>
 		</plant>
@@ -75,7 +74,6 @@
 			<fertilitySensitivity>0.0</fertilitySensitivity>
 			<growDays>2.5</growDays>
 			<mustBeWildToSow>true</mustBeWildToSow>
-			<immatureGraphicPath>Things/Plant/_Immature/TigerLily_Immature</immatureGraphicPath>
 			<sowResearchPrerequisites/>
 			<sowTags>
 				<li>Ground</li>
