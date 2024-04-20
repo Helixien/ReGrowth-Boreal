@@ -43,6 +43,7 @@
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 			<humanFoodPlant>true</humanFoodPlant>
+			<immatureGraphicPath>Things/Plant/_Immature/Potokus_Immature</immatureGraphicPath>
 		</plant>
 	</ThingDef>
 </Defs>
