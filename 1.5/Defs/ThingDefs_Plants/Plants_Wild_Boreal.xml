@@ -42,7 +42,6 @@
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.2</fertilitySensitivity>
 			<leaflessGraphicPath>Things/Plant/_Leafless/Coldheart_Leafless</leaflessGraphicPath>
-			<immatureGraphicPath>Things/Plant/_Immature/Coldheart_Immature</immatureGraphicPath>
 			<pollutedGraphicPath>Things/Plant/_Polluted/Coldheart_Polluted</pollutedGraphicPath>
 			<growDays>15</growDays>
 			<harvestWork>75</harvestWork>
