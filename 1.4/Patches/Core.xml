@@ -56,7 +56,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/pollutedGraphicPath</xpath>
 				<value>
-					<pollutedGraphicPath>Things/Plant/Polluted/TreePine_Polluted</pollutedGraphicPath>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreePine_Polluted</pollutedGraphicPath>
 				</value>
 			</li>
 		</operations>
