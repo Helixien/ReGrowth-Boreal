@@ -30,11 +30,11 @@
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<fertilityMin>0.04</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>12</growDays>
+			<growDays>11</growDays>
 			<maxMeshCount>4</maxMeshCount>
 			<sowMinSkill>8</sowMinSkill>
 			<dieIfLeafless>true</dieIfLeafless>
-			<harvestYield>26</harvestYield>
+			<harvestYield>24</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawFungus</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
